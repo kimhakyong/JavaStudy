@@ -22,5 +22,7 @@ public class Log4jDiff {
 				workingThread[j].join();
 			}
 		}
+		
+		System.out.println("git!!!");
 	}
 }
