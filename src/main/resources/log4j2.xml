@@ -29,6 +29,13 @@
 			</Policies>
 		</RollingFile>
 
+		<RollingFile name="ActiveMQFile" fileName="logs/activeMQ.log" filePattern="logs/activeMQ.%d{yyyyMMdd}.log" immediateFlush="false">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" />
+			</Policies>
+		</RollingFile>
+
 		<!-- Syslog name="syslog" host="localhost" port="514" protocol="UDP" charset="ISO-8859-1"> 
 			</Syslog -->
 
@@ -40,7 +47,7 @@
 	<Loggers>
 		<!-- 모든 로그는 dubug레벨 이상일때만 찍고 -->
 		<Root level="debug" additivity="false">
-			<AppenderRef ref="CONSOLE" />
+			<AppenderRef ref="ActiveMQFile" />
 		</Root>
 
 		<Logger name="Sync" level="info" additivity="false">

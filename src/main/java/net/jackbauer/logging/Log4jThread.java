@@ -8,6 +8,8 @@ public class Log4jThread implements Runnable {
 	private static final AtomicLong checkValue = new AtomicLong();
 	private static final AtomicLong threadNumber = new AtomicLong();
 	
+	static final int LoopCount = 1000000;
+	
 	final int currentThreadCount;
 	final Logger logger;
 	
@@ -24,9 +26,16 @@ public class Log4jThread implements Runnable {
 		
 		long start = System.currentTimeMillis();
 		
-		for (int i = 0; i < 10000; i++) {
+		for (int i = 0; i < LoopCount; i++) {
 			logger.info(String.format("increment : %d == current : %s", checkValue.incrementAndGet(), checkValue.get()));
-			logger.info(poem);
+			
+			logger.info("info : " + poem);
+			logger.debug("debug : " + poem);
+			try {
+				Thread.sleep(50);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 		
 		long end = System.currentTimeMillis();

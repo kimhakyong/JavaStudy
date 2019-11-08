@@ -1,7 +1,8 @@
 package net.jackbauer.logging;
 
 public class Log4jDiff {
-	private static final int[] threadCount = {2, 4, 8, 16, 32};
+	private static final int[] threadCount = {2, 4, 8, 16, 32, 64};
+//	private static final int[] threadCount = {2};
 
 	public static void main(String[] args) throws Exception {
 		String loggerName;

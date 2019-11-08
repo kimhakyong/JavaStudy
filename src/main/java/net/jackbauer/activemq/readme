@@ -1,0 +1,48 @@
+[ActiveMQ]
+- OpenWire
+- AMQP (Advanced Message Queuing Protocol)
+- STOMP (Simple Text Oriented Messaging Protocol)
+- MQTT
+- JMS
+
+[AMQP : Advanced Message Queuing Protocol]
+- 메시지 지향 미들웨어를 위한 개방형 표준 응용 계층 프로토콜이다. 
+- AMQP의 정의 기능들은 메시지 지향, 큐잉, 라우팅(P2P 및 발행-구독), 신뢰성, 보안이다.
+- API, 그리고 메시징 구현체가 제공해야 하는 행위의 모임을 정의하는 JMS와는 달리 AMQP는 와이어 
+레벨 프로토콜이다.
+- 와이어 레벨 프로토콜은 바이트 스트림으로 네트워크를 경유하며 송신되는 데이터의 형식을 기술한다.
+- 그러므로 이러한 데이터 형식을 따르는 메시지를 만들고 해석할 수 있는 도구라면 구현 언어에 관계 없이 
+다른 호환 도구와 상호 운용이 가능하다.
+
+[STOMP : Simple Text Oriented Messaging Protocol]
+- TOMP는 단순 (또는 스트리밍) 텍스트 지향 메시징 프로토콜입니다.
+- STOMP는 상호 운용 가능한 유선 형식을 제공하므로 STOMP 클라이언트는 모든 STOMP 메시지 
+브로커와 통신하여 여러 언어, 플랫폼 및 브로커간에 쉽고 광범위한 메시징 상호 운용성을 
+제공 할 수 있습니다.
+- STOMP는 HTTP 디자인 학교에서 나온 매우 간단하고 구현하기 쉬운 프로토콜입니다. 
+서버 쪽은 제대로 구현하기 어려울 수 있지만 클라이언트를 작성하여 자신을 연결하는 것은 
+매우 쉽습니다.
+- 예를 들어 텔넷을 사용하여 STOMP 브로커에 로그인하고 상호 작용할 수 있습니다!
+- 많은 개발자들이 STOMP 클라이언트를 특정 언어, 런타임 또는 플랫폼으로 STOMP 네트워크에 
+2시간 내에 작성했다고 말합니다.
+- 따라서 원하는 언어 / 런타임을 선택해도 STOMP 클라이언트가 충분하지 않다면 작성하는 것을
+두려워하지 마십시오.
+- STOMP 1.2는 2012 년 10 월 22 일에 출시되었습니다.
+
+
+
+
+- 메시지 지향 미들웨어(Message Oriented Middleware : MOM) 
+: 분산 시스템 간 메시지를 주고 받는 기능을 지원하는 소프트웨어나 하드웨어 인프라
+
+- 메시지 큐(Message Queue : MQ)
+: MOM을 구현한 시스템
+
+- 브로커(Broker)
+: Message Queue 시스템
+
+- AMQP(Advanced Message Queueing Protocol)
+: 메시지 지향 미들웨어를 위한 프로토콜
+
+-JMS(Java Message Service)
+: 자바 메시지 서비스(Java Message Service; JMS)는 자바 프로그램이 네트워크를 통해 데이터를 송수신하는 자바 API이다.

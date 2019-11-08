@@ -5,7 +5,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import org.apache.log4j.Logger;
 
 public class Log4jSample {
-	private static final int[] threadCount = {2, 4, 8, 16, 32};
+	private static final int[] threadCount = {2, 4, 8, 16, 32, 64};
 	private static final AtomicLong checkValue = new AtomicLong();
 	private static final AtomicLong threadNumber = new AtomicLong();
 		
@@ -32,6 +32,13 @@ public class Log4jSample {
 						for (int i = 0; i < 10000; i++) {
 							logger.info(String.format("increment : %d == current : %s", checkValue.incrementAndGet(), checkValue.get()));
 							logger.info(poem);
+							
+							try {
+								Thread.sleep(50);
+							} catch (InterruptedException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
 						}
 						
 						long end = System.currentTimeMillis();
