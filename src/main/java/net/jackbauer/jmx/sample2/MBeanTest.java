@@ -12,6 +12,7 @@ public class MBeanTest {
             name = new ObjectName("hello:type=hello");
             Hello mbean = new Hello();
             server.registerMBean(mbean, name);
+            server.registerMBean(mbean, name);
             System.out.println("Waiting forever");
             Thread.sleep(Long.MAX_VALUE);
         }catch(Exception e){
