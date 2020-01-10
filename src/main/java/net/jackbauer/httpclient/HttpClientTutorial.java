@@ -14,7 +14,7 @@ import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.params.HttpMethodParams;
 
 public class HttpClientTutorial {
-	private static String url = "http://www.apache.org/";
+	private static String url = "http://localhost:8080/web/index.jsp";
 
 	public static void main(String[] args) {
 		// Create an instance of HttpClient.
@@ -39,8 +39,9 @@ public class HttpClientTutorial {
 
 			// Deal with the response.
 			// Use caution: ensure correct character encoding and is not binary data
-			System.out.println(new String(responseBody));
-
+			System.out.println((new String(responseBody)).substring(0, 100));
+			System.out.println(System.getProperty("https.protocols"));
+			
 		} catch (HttpException e) {
 			System.err.println("Fatal protocol violation: " + e.getMessage());
 			e.printStackTrace();
