@@ -67,7 +67,11 @@ public class HttpsClientWithoutValidation {
 	 * @throws Exception
 	 */
 	public static void main(String[] args) throws Exception {
+		// System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2");
+		System.setProperty("https.protocols", "TLSv1");
+
 		HttpsClientWithoutValidation test = new HttpsClientWithoutValidation();
-		test.getHttps("https://localhost:8443/web/index.jsp");
+//		test.getHttps("https://localhost:8443");
+		test.getHttps("https://www.eps.go.kr");
 	}
 }
