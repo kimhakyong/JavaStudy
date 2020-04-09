@@ -1,68 +1,70 @@
-package modern.java.in.action;
+package modern.java.in.action.chapter2;
+
+import org.apache.logging.log4j.core.util.JsonUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class Chapter2 {
+import static modern.java.in.action.chapter2.Color.GREEN;
+import static modern.java.in.action.chapter2.Color.RED;
+
+public class Main {
     public static void main(String[] args) {
         List<Apple> inventory = Arrays.asList(
-                new Apple(80, Color.GREEN),
-                new Apple(155, Color.GREEN),
-                new Apple(120, Color.RED));
+                new Apple(80, GREEN),
+                new Apple(155, GREEN),
+                new Apple(160, RED));
 
         List<Apple> apples = filterGreenApples(inventory);
-        for (Apple apple : apples) {
-            System.out.println(apple.toString());
-        }
+        apples.forEach(System.out::println);
 
-        apples = filterApplesByColor(inventory, Color.RED);
-        for (Apple apple : apples) {
-            System.out.println(apple.toString());
-        }
+        System.out.println("==========");
+
+        apples = filterApplesByColor(inventory, RED);
+        apples.forEach(System.out::println);
+
+        System.out.println("==========");
 
         apples = filterApples(inventory, new AppleHeavyWeightPredicate());
-        for (Apple apple : apples) {
-            System.out.println(apple.toString());
-        }
+        apples.forEach(System.out::println);
+
+        System.out.println("==========");
+
+        apples = filterApples(inventory, new AppleGreenColorPredicate());
+        apples.forEach(System.out::println);
+
+        System.out.println("==========");
 
         apples = filterApples(inventory, new AppleRedAndHeavyPredicate());
-        for (Apple apple : apples) {
-            System.out.println(apple.toString());
-        }
+        apples.forEach(System.out::println);
+
+        System.out.println("==========");
 
         prettyPrintApple(inventory, new AppleFancyFormatter());
+        prettyPrintApple(inventory, new AppleSimpleFormatter());
+
+        System.out.println("==========");
 
         apples = filterApples(inventory, new ApplePredicate() {
             @Override
             public boolean test(Apple apple) {
-                return Color.RED.equals(apple.getColor());
+                return RED.equals(apple.getColor());
             }
         });
+        apples.forEach(System.out::println);
 
-        for (Apple apple : apples) {
-            System.out.println(apple.toString());
-        }
+        System.out.println("==========");
 
-        System.out.println("==================================");
-
-        inventory.sort(new Comparator<Apple>() {
-            @Override
-            public int compare(Apple o1, Apple o2) {
-                return Integer.valueOf(o2.getWeight()).compareTo(o1.getWeight());
-            }
-        });
-
-        for (Apple apple : inventory) {
-            System.out.println(apple.toString());
-        }
+        inventory.sort((Apple a1, Apple a2) -> Integer.valueOf(a2.getWeight()).compareTo(a1.getWeight()));
+        inventory.forEach(System.out::println);
     }
 
     public static List<Apple> filterGreenApples(List<Apple> inventory) {
         List<Apple> result = new ArrayList<>();
         for (Apple apple : inventory) {
-            if (Color.GREEN.equals(apple.getColor())) {
+            if (GREEN.equals(apple.getColor())) {
                 result.add(apple);
             }
         }

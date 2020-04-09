@@ -1,5 +1,7 @@
 package modern.java.in.action;
 
+import modern.java.in.action.chapter1.Apple;
+
 import java.util.Comparator;
 
 public class AppleComparator implements Comparator<Apple> {

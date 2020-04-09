@@ -1,4 +1,6 @@
-package modern.java.in.action;
+package modern.java.in.action.chapter1;
+
+import modern.java.in.action.Trader;
 
 import java.util.Objects;
 

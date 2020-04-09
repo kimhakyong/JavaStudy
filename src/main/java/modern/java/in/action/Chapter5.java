@@ -1,5 +1,7 @@
 package modern.java.in.action;
 
+import modern.java.in.action.chapter1.Transaction;
+
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -10,7 +12,6 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static java.util.Comparator.comparing;
-import static java.util.stream.Collectors.toList;
 
 public class Chapter5 {
     public static void main(String[] args) {
