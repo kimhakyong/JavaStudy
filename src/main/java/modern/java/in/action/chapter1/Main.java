@@ -12,6 +12,13 @@ import static java.util.stream.Collectors.toList;
 import static modern.java.in.action.chapter1.Color.GREEN;
 import static modern.java.in.action.chapter1.Color.RED;
 
+/*
+    - 스트림 API
+    - 동작 파라미터화(behavior parameterization)로 메서드에 코드를 전달하는 기법
+    - 병렬성과 공유 가변 데이터(shared mutalbe data)
+    - 인터페이스의 디폴트 메서드
+ */
+
 public class Main {
 
     public static void main(String[] args) {
