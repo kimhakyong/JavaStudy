@@ -30,11 +30,23 @@ public class Main {
                 new Apple(120, RED));
 
         appleFilter(inventory);
+        appleStream(inventory);
+    }
 
-//        inventory.stream()
-//                .filter((Apple a) -> GREEN.equals(a.getColor()))
-//                .collect(toList())
-//                .forEach(System.out::println);
+    public static void appleStream(List<Apple> inventory) {
+        // Stream
+        System.out.println("Stream");
+        inventory.stream()
+                .filter((Apple a) -> GREEN.equals(a.getColor()))
+                .collect(toList())
+                .forEach(System.out::println);
+
+        // ParallelStream
+        System.out.println("ParallelStream");
+        inventory.parallelStream()
+                .filter((Apple a) -> (GREEN.equals(a.getColor()) && a.getWeight() > 150))
+                .collect(toList())
+                .forEach(System.out::println);
     }
 
     public static void appleFilter(List<Apple> inventory) {
