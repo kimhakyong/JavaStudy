@@ -1,6 +1,6 @@
-package modern.java.in.action.chapter2;
+package modern.java.in.action.chapter3;
 
-import static modern.java.in.action.chapter2.Color.GREEN;
+import static modern.java.in.action.chapter3.Color.GREEN;
 
 enum Color {RED, GREEN}
 
@@ -11,6 +11,9 @@ public class Apple {
     public Apple(int weight, Color color) {
         this.weight = weight;
         this.color = color;
+    }
+
+    public Apple() {
     }
 
     public Apple(int weight) {

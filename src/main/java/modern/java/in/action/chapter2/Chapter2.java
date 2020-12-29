@@ -10,7 +10,7 @@ import java.util.List;
 import static modern.java.in.action.chapter2.Color.GREEN;
 import static modern.java.in.action.chapter2.Color.RED;
 
-public class Main {
+public class Chapter2 {
     public static void main(String[] args) {
         List<Apple> inventory = Arrays.asList(
                 new Apple(80, GREEN),
