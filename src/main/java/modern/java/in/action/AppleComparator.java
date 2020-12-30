@@ -1,6 +1,6 @@
 package modern.java.in.action;
 
-import modern.java.in.action.chapter1.Apple;
+import modern.java.in.action.sample.Apple;
 
 import java.util.Comparator;
 

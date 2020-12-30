@@ -1,6 +1,6 @@
 package modern.java.in.action.chapter1;
 
-import net.jackbauer.study.App;
+import modern.java.in.action.sample.Apple;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -9,8 +9,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
-import static modern.java.in.action.chapter1.Color.GREEN;
-import static modern.java.in.action.chapter1.Color.RED;
+import static modern.java.in.action.sample.Color.GREEN;
+import static modern.java.in.action.sample.Color.RED;
 
 /*
     - 스트림 API
@@ -19,7 +19,7 @@ import static modern.java.in.action.chapter1.Color.RED;
     - 인터페이스의 디폴트 메서드
  */
 
-public class Main {
+public class Chapter1 {
 
     public static void main(String[] args) {
         fileFilter();

@@ -1,6 +1,6 @@
 package modern.java.in.action;
 
-import modern.java.in.action.chapter1.Transaction;
+import modern.java.in.action.sample.Transaction;
 import modern.java.in.action.chapter4.Dish;
 
 import java.io.IOException;

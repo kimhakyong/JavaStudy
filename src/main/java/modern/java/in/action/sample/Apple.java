@@ -1,11 +1,9 @@
-package modern.java.in.action.chapter2;
+package modern.java.in.action.sample;
 
-import static modern.java.in.action.chapter2.Color.GREEN;
-
-enum Color {RED, GREEN}
+import static modern.java.in.action.sample.Color.GREEN;
 
 public class Apple {
-    private int weight = 0;
+    private int weight;
     private Color color = GREEN;
 
     public Apple(int weight, Color color) {
