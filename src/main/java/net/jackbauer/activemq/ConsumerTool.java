@@ -70,7 +70,7 @@ public class ConsumerTool extends Thread implements MessageListener, ExceptionLi
 	private long messagesReceived = 0;
 
     public static void main(String[] args) {
-        ArrayList<ConsumerTool> threads = new ArrayList();
+        ArrayList<ConsumerTool> threads = new ArrayList<>();
         ConsumerTool consumerTool = new ConsumerTool();
         String[] unknown = CommandLineSupport.setOptions(consumerTool, args);
         if (unknown.length > 0) {
