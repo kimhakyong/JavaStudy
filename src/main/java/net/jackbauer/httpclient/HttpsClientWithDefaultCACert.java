@@ -25,7 +25,8 @@ import javax.net.ssl.X509TrustManager;
  * 
  */
 public class HttpsClientWithDefaultCACert {
-	static String[] HTTPS_PROTOCOL = {"SSLv3", "TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"};
+//	static String[] HTTPS_PROTOCOL = {"SSLv3", "TLSv1", "TLSv1.1", "TLSv1.2", "TLSv1.3"};
+	static String[] HTTPS_PROTOCOL = {"TLSv1"};
 	static String XPAY_URL = "https://xpayclient.lgdacom.net:443";
 	static String CHECK_URL = "https://www.eps.go.kr";
 

@@ -6,28 +6,31 @@ package net.jackbauer.httpclient;
 
 import java.io.IOException;
 
-import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler;
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpException;
-import org.apache.commons.httpclient.HttpStatus;
+import org.apache.commons.httpclient.*;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.params.HttpMethodParams;
+import org.apache.commons.httpclient.protocol.Protocol;
 
-/**
- * VM Option : -Djavax.net.debug=ssl,handshake
- */
-public class ApacheHttpClientTutorial {
+public class ApacheHttpClientCustom {
     private static String url = "https://localhost:8443";
 //    private static String url = "https://www.eps.go.kr";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws URIException {
         setProperty();
+
+        Protocol easyhttps = new Protocol("https", new EasySSLProtocolSocketFactory(), 8443);
+
+        URI uri = new URI("https://localhost/", true);
+
+        // use relative url only
+        HostConfiguration hc = new HostConfiguration();
+        hc.setHost(uri.getHost(), uri.getPort(), easyhttps);
 
         // Create an instance of HttpClient.
         HttpClient client = new HttpClient();
 
         // Create a method instance.
-        GetMethod method = new GetMethod(url);
+        GetMethod method = new GetMethod(uri.getPathQuery());
 
         // Provide custom retry handler is necessary
         method.getParams().setParameter(HttpMethodParams.RETRY_HANDLER,
@@ -35,7 +38,7 @@ public class ApacheHttpClientTutorial {
 
         try {
             // Execute the method.
-            int statusCode = client.executeMethod(method);
+            int statusCode = client.executeMethod(hc, method);
 
             if (statusCode != HttpStatus.SC_OK) {
                 System.err.println("Method failed: " + method.getStatusLine());
@@ -63,11 +66,12 @@ public class ApacheHttpClientTutorial {
 
     private static void setProperty() {
 //        System.setProperty("https.protocols", "TLSv1,TLSv1.1,TLSv1.2");
-        System.setProperty("https.protocols", "TLSv1");
+        System.setProperty("https.protocols", "TLSv1.2");
 
         System.setProperty("org.apache.commons.logging.Log", "org.apache.commons.logging.impl.SimpleLog");
         System.setProperty("org.apache.commons.logging.simplelog.showdatetime", "true");
         System.setProperty("org.apache.commons.logging.simplelog.log.httpclient.wire.header", "debug");
         System.setProperty("org.apache.commons.logging.simplelog.log.org.apache.commons.httpclient", "debug");
+        System.setProperty("org.apache.commons.logging.simplelog.log.net.jackbauer.httpclient.EasyX509TrustManager", "debug");
     }
 }
