@@ -5,7 +5,7 @@
 @remarks http://seed.kisa.or.kr/
 */
 
-package net.jackbauer.cipher.cbc;
+package net.jackbauer.cipher.seed.cbc;
 
 public class KISA_SEED_CBC {
 
