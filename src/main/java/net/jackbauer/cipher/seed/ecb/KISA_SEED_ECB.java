@@ -5,7 +5,7 @@
 @remarks http://seed.kisa.or.kr/
 */
 
-package net.jackbauer.cipher.ecb;
+package net.jackbauer.cipher.seed.ecb;
 
 public class KISA_SEED_ECB {
 	// DEFAULT : JAVA = BIG_ENDIAN
