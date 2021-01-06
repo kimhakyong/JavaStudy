@@ -44,6 +44,6 @@ public class Apple {
     @SuppressWarnings("boxing")
     @Override
     public String toString() {
-        return String.format("Apple{color='%d', weight=%d}", color.ordinal(), weight);
+        return String.format("Apple{color='%s', weight=%d}", color, weight);
     }
 }

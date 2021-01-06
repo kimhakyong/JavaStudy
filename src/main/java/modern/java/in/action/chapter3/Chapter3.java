@@ -2,14 +2,20 @@ package modern.java.in.action.chapter3;
 
 import modern.java.in.action.sample.Apple;
 import modern.java.in.action.sample.Color;
+import org.apache.logging.log4j.core.util.JsonUtils;
+import org.w3c.dom.ls.LSOutput;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.function.*;
+
+import static modern.java.in.action.sample.Color.GREEN;
+import static modern.java.in.action.sample.Color.RED;
 
 /*
     람다는 함수형 인터페이스다.
@@ -26,31 +32,25 @@ public class Chapter3 {
         // 설정 -> 실행 -> 정리
         executeAroundPattern();
 
-        // Predicate
         usePredicate();
-
-        // Consumer
         useConsumer();
-
-        // Function
         useFunction();
 
         // 기본형에 대한 함수형 인터페이스
         usePrimitiveFunction();
 
-        // method reference
         useMethodReference();
 
-        // constructor reference
         useConstructorReference();
 
-//        listOfString.sort(Comparator.comparingInt(String::length));
-//        listOfString.sort(Comparator.comparing(String::length));
+        // lambda summary
+        useAllLambda();
 
-        /*
-        List<String> str = Arrays.asList("a", "b", "A", "B");
-        str.sort(String::compareToIgnoreCase);
-        str.forEach(System.out::println);
+        useUsefulMethod();
+    }
+
+    private static void useUsefulMethod() {
+        System.out.println("*** " + new Object() {}.getClass().getEnclosingMethod().getName());
 
         List<Apple> inventory = Arrays.asList(
                 new Apple(80, GREEN),
@@ -58,48 +58,102 @@ public class Chapter3 {
                 new Apple(155, RED),
                 new Apple(160, RED));
 
-        inventory.sort(new AppleComparator());
+        // Comparator 활용
+        System.out.println("** Comparator");
+
+        Comparator<Apple> c = Comparator.comparing(Apple::getWeight);
+        inventory.sort(c);
         inventory.forEach(System.out::println);
 
-        inventory.sort(new Comparator<Apple>() {
-            @Override
-            public int compare(Apple o1, Apple o2) {
-                return Integer.compare(o1.getWeight(), o2.getWeight());
-            }
-        });
+        inventory.sort(c.reversed());
         inventory.forEach(System.out::println);
 
-        System.out.println("==========");
-
-        inventory.sort(Comparator.comparingInt(Apple::getWeight));
+        inventory.sort(c.reversed().thenComparing(Apple::getColor));
         inventory.forEach(System.out::println);
 
-        System.out.println("==========");
+        // Predicate 조합
+        // negate, and, or
+        System.out.println("** Predicate");
 
-        inventory.sort(Comparator.comparingInt(Apple::getWeight).reversed().thenComparing(Apple::getColor));
-        inventory.forEach(System.out::println);
+        System.out.println("** negate");
+        Predicate<Apple> redApplesPre = apple -> apple.getColor() == RED;
+        List<Apple> notRedApples = filter(inventory, redApplesPre.negate());
+        notRedApples.forEach(System.out::println);
 
-        System.out.println("==========");
+        System.out.println("** and");
+        Predicate<Apple> redAndHeavyPre
+                = redApplesPre.and(apple->apple.getWeight() > 150).or(apple -> GREEN.equals(apple.getColor()));
+        List<Apple> redAndHeavyApples = filter(inventory, redAndHeavyPre);
+        redAndHeavyApples.forEach(System.out::println);
+
+        // Function 조합
+        // andThen, compose
+        System.out.println("** function");
+        System.out.println("** andThen, compose");
 
         Function<Integer, Integer> f = x -> x + 1;
         Function<Integer, Integer> g = x -> x * 2;
         Function<Integer, Integer> h = f.andThen(g);
-        int result = h.apply(7);
-        System.out.println(result);
+        int result = h.apply(10);
+        System.out.println("result : " + result);
 
-        Function<Integer, Integer> j = f.compose(g);
-        result = j.apply(7);
-        System.out.println(result);
-
-        System.out.println("==========");
+        f = x -> x + 1;
+        g = x -> x * 2;
+        h = f.compose(g);
+        result = h.apply(10);
+        System.out.println("result : " + result);
 
         Function<String, String> addHeader = Letter::addHeader;
-        Function<String, String> transformationPipeline = addHeader
-                .andThen(Letter::checkSpelling)
-                .andThen(Letter::addFooter);
-        String curLetter = transformationPipeline.apply("labda kim hakyong");
-        System.out.println(curLetter);
-        */
+        Function<String, String> transformationPipeline1 =
+                addHeader.andThen(Letter::addBody)
+                        .andThen(Letter::checkSpelling)
+                        .andThen(Letter::addFooter);
+        Function<String, String> transformationPipeline2 =
+                addHeader.andThen(Letter::addBody)
+                        .andThen(Letter::addFooter);
+
+        System.out.println(transformationPipeline1.apply("letter1"));
+        System.out.println(transformationPipeline2.apply("letter2"));
+    }
+
+    private static void useAllLambda() {
+        System.out.println("*** method useAllLambda");
+
+        List<Apple> inventory = Arrays.asList(
+                new Apple(80, GREEN),
+                new Apple(155, GREEN),
+                new Apple(155, RED),
+                new Apple(160, RED));
+
+        System.out.println("** step 1");
+
+        inventory.sort(new AppleComparator());
+        inventory.forEach(System.out::println);
+
+        System.out.println("** step 2 : anonymous class");
+        inventory.sort(new Comparator<Apple>() {
+            @Override
+            public int compare(Apple o1, Apple o2) {
+                return Integer.valueOf(o1.getWeight()).compareTo(o2.getWeight());
+            }
+        });
+        inventory.forEach(System.out::println);
+
+        System.out.println("** step 3 : lambda");
+        inventory.sort((Apple a1, Apple a2) -> Integer.valueOf(a1.getWeight()).compareTo(a2.getWeight()));
+        inventory.forEach(System.out::println);
+
+        System.out.println("** step 4 : 형식 추론");
+        inventory.sort((a1, a2) -> Integer.valueOf(a1.getWeight()).compareTo(a2.getWeight()));
+        inventory.forEach(System.out::println);
+
+        System.out.println("** step 5 : static method");
+        inventory.sort(Comparator.comparing(apple -> apple.getWeight()));
+        inventory.forEach(System.out::println);
+
+        System.out.println("** step 6 : method reference");
+        inventory.sort(Comparator.comparing(Apple::getWeight));
+        inventory.forEach(System.out::println);
     }
 
     private static void useConstructorReference() {
@@ -125,7 +179,8 @@ public class Chapter3 {
         forEach(apples, System.out::println);
 
         BiFunction<Integer, Color, Apple> b1 = Apple::new;
-        Apple a5 = b1.apply(100, Color.GREEN);
+        Apple a5 = b1.apply(100, GREEN);
+
     }
 
     /**
