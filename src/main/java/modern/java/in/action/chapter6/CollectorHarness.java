@@ -6,7 +6,7 @@ public class CollectorHarness {
         for (int i = 0; i < 10; i++) {
             long start = System.nanoTime();
 //            Main.partitionPrimes(1_000_000);
-            Main.partitionPrimesWithCustomCollector(1_000_000);
+            Chapter6.partitionPrimesWithCustomCollector(1_000_000);
             long duration = (System.nanoTime() - start) / 1_000_000;
             if (duration < fastest) fastest = duration;
         }

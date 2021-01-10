@@ -1,5 +1,6 @@
-package modern.java.in.action.chapter4;
+package modern.java.in.action.sample;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -57,6 +58,14 @@ public class Dish {
             new Dish("pizza", true, 550, Dish.Type.OTHER),
             new Dish("prawns", false, 400, Dish.Type.FISH),
             new Dish("salmon", false, 450, Dish.Type.FISH)
+    );
+
+    public static final List<Dish> specialMenu = Arrays.asList(
+            new Dish("seasonal fruit", true, 120, Dish.Type.OTHER),
+            new Dish("prawns", false, 300, Dish.Type.FISH),
+            new Dish("rice", true, 320, Dish.Type.OTHER),
+            new Dish("chicken", false, 320, Dish.Type.MEAT),
+            new Dish("french fries", true, 530, Dish.Type.OTHER)
     );
 
     public static final Map<String, List<String>> dishTags = new HashMap<>();

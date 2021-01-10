@@ -1,6 +1,6 @@
 package modern.java.in.action.sample;
 
-import modern.java.in.action.Trader;
+import modern.java.in.action.chapter5.Trader;
 
 import java.util.Objects;
 

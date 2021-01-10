@@ -1,33 +1,38 @@
 package modern.java.in.action.chapter4;
 
+import modern.java.in.action.sample.Dish;
+
 import java.util.*;
+import java.util.stream.Stream;
 
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
-import static modern.java.in.action.chapter4.Dish.menu;
+import static modern.java.in.action.sample.Dish.menu;
 
+/**
+ * Stream API 특징
+ * - 선언형 : 간결 / 가독성
+ * - 조립할 수 있음 : 유연성
+ * - 병렬화 : 성능
+ */
 public class Chapter4 {
     public static void main(String[] args) {
-        List<Dish> lowCaloricDished = new ArrayList<>();
-        for (Dish dish : menu) {
-            if (dish.getCalories() < 400) {
-                lowCaloricDished.add(dish);
-            }
-        }
+        useOldMethod();
+        useNewMethod();
 
-        lowCaloricDished.sort(comparing(Dish::getCalories));
-        lowCaloricDished.forEach(System.out::println);
+        // a stream can only be used once
+        useOnlyOneStream();
 
-        List<String> lowCaloricDishesName = menu.stream()
-                .filter(d -> d.getCalories() < 400)
-                .sorted(comparing(Dish::getCalories))
-                .map(Dish::getName)
-                .collect(toList());
-        lowCaloricDishesName.forEach(System.out::println);
+        // external iteration / internal iteration
+        useExternalInternalIteration();
 
-        System.out.println("=================================");
+        printStreamMethodResult();
+    }
 
-        List<String> threeHighCaloricDishNames = menu.stream()
+    private static void printStreamMethodResult() {
+        System.out.println("*** " + new Object() {
+        }.getClass().getEnclosingMethod().getName());
+        List<String> names = menu.stream()
                 .filter(dish -> {
                     System.out.println("filtering : " + dish.getName());
                     return dish.getCalories() > 300;
@@ -38,57 +43,118 @@ public class Chapter4 {
                 })
                 .limit(3)
                 .collect(toList());
-        System.out.println(threeHighCaloricDishNames);
+        System.out.println(names);
+    }
 
-//        menu.stream().forEach(System.out::println);
-//
-//        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 4, 5, 1, 2, 8);
-//        numbers.stream().filter(i -> i % 2 == 0).distinct().forEach(System.out::println);
-//
-//        List<Dish> specialMenu = Arrays.asList(
-//                new Dish("seasonal fruit", true, 120, Dish.Type.OTHER),
-//                new Dish("prawns", false, 300, Dish.Type.FISH),
-//                new Dish("rice", true, 320, Dish.Type.OTHER),
-//                new Dish("chicken", false, 320, Dish.Type.MEAT),
-//                new Dish("french fries", true, 530, Dish.Type.OTHER)
-//        );
-//
-//        List<Dish> filteredMenu = specialMenu.stream().filter(dish -> dish.getCalories() < 320).collect(toList());
-//        System.out.println(filteredMenu);
-//
-//        filteredMenu = specialMenu.stream().dropWhile(dish -> dish.getCalories() <= 320).collect(toList());
-//        System.out.println(filteredMenu);
-//
-//        List<String> words = Arrays.asList("Modern", "Java", "In", "Action");
-//        List<Integer> wordLengths = words.stream().map(String::length).collect(toList());
-//        System.out.println(wordLengths);
-//
-//        List<Integer> sqrts = Arrays.asList(1, 2, 3, 4, 5);
-//        System.out.println(sqrts.stream().map(i -> i * i).collect(toList()));
-//
-//        List<Integer> numbers1 = Arrays.asList(1, 2, 3);
-//        List<Integer> numbers2 = Arrays.asList(3, 4);
-////        List<int[]> pairs = numbers1.stream().flatMap(i -> numbers2.stream().map(j -> new int[]{i, j}))
-////                .collect(toList());
-//
-//        List<int[]> pairs = numbers1.stream().flatMap(i -> {
-//               return numbers2.stream().filter(j -> (i + j) % 3 == 0).map(j -> new int[]{1, j});
-//        }).collect(toList());
-//
-//        Optional<Dish> dish = menu.stream().filter(Dish::isVegetarian).findAny();
-//        System.out.println(dish);
-//
-//        menu.stream().filter(Dish::isVegetarian).findAny().ifPresent(d -> System.out.println(d.getName()));
-//
-//        List<Integer> someNumbers = Arrays.asList(1, 2, 3, 4, 5);
-//        Optional<Integer> num3 = someNumbers.stream().map(n -> n * n).filter(n -> n % 3 == 0).findFirst();
-//        num3.ifPresent(System.out::println);
-//
-//        List<Integer> sNums = Arrays.asList(1, 2, 3, 4, 5, 6);
-//        int sum = sNums.stream().reduce(0, Integer::max);
-//        System.out.println(sum);
-//
-//        long count = menu.stream().map(d -> 1).count();
-//        System.out.println(count);
+    private static void useExternalInternalIteration() {
+        System.out.println("*** " + new Object() {
+        }.getClass().getEnclosingMethod().getName());
+        List<String> names = new ArrayList<>();
+
+        // iterator
+        Iterator<Dish> iterator = menu.iterator();
+        while (iterator.hasNext()) {
+            Dish dish = iterator.next();
+            names.add(dish.getName());
+        }
+
+        // for-each
+        for (Dish dish : menu) {
+            names.add(dish.getName());
+        }
+
+        // stream
+        names = menu.stream()
+                .map(dish -> dish.getName())
+                .collect(toList());
+        System.out.println(names);
+
+        // before refactoring
+        List<Dish> highCaloricDishs = new ArrayList<>();
+        Iterator<Dish> iterator2 = menu.iterator();
+        while (iterator2.hasNext()) {
+            Dish dish = iterator2.next();
+            if (dish.getCalories() > 300) {
+                highCaloricDishs.add(dish);
+            }
+        }
+        System.out.println(highCaloricDishs);
+
+        // after refactoring
+        highCaloricDishs = menu.stream()
+                .filter(dish -> dish.getCalories() > 300)
+                .collect(toList());
+        System.out.println(highCaloricDishs);
+    }
+
+    private static void useOnlyOneStream() {
+        System.out.println("*** " + new Object() {
+        }.getClass().getEnclosingMethod().getName());
+
+        List<String> title = Arrays.asList("Java8", "In", "Action");
+        Stream<String> s = title.stream();
+        s.forEach(System.out::println);
+        try {
+            s.forEach(System.out::println);
+        } catch (IllegalStateException ex) {
+            System.out.println("Exception 발생 : " + ex);
+            System.out.println("a stream can only be used once.");
+        }
+    }
+
+    private static void useNewMethod() {
+        System.out.println("*** " + new Object() {
+        }.getClass().getEnclosingMethod().getName());
+
+        List<String> lowCaloricDishesName = menu.stream()
+                .filter(d -> d.getCalories() < 400)
+                .sorted(comparing(Dish::getCalories))
+                .map(Dish::getName)
+                .collect(toList());
+
+        lowCaloricDishesName = menu.parallelStream()
+                .filter(d -> d.getCalories() < 400)
+                .sorted(comparing(Dish::getCalories))
+                .map(Dish::getName)
+                .collect(toList());
+
+        lowCaloricDishesName.forEach(System.out::println);
+
+        List<String> threedHighCalroicDishNames = menu.stream()
+                .filter(dish -> dish.getCalories() > 300)
+                .map(Dish::getName)
+                .limit(3)
+                .collect(toList());
+
+        System.out.println(threedHighCalroicDishNames);
+    }
+
+    public static void useOldMethod() {
+        System.out.println("*** " + new Object() {
+        }.getClass().getEnclosingMethod().getName());
+
+        List<Dish> lowCaloricDishes = new ArrayList<>();
+        for (Dish dish : menu) {
+            if (dish.getCalories() < 400) {
+                lowCaloricDishes.add(dish);
+            }
+        }
+
+        Collections.sort(lowCaloricDishes, new Comparator<Dish>() {
+            @Override
+            public int compare(Dish o1, Dish o2) {
+                return Integer.compare(o1.getCalories(), o2.getCalories());
+            }
+        });
+
+        List<String> lowCaloricDishesName = new ArrayList<>();
+        for (Dish dish : lowCaloricDishes) {
+            lowCaloricDishesName.add(dish.getName());
+        }
+
+        lowCaloricDishesName.forEach(System.out::println);
     }
 }
+
+
+
