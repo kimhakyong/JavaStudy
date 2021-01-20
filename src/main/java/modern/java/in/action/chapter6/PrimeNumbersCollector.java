@@ -7,22 +7,24 @@ import java.util.function.Function;
 import java.util.function.Supplier;
 import java.util.stream.Collector;
 
-public class PrimeNumbersCollector implements Collector<Integer,
-        Map<Boolean, List<Integer>>, Map<Boolean, List<Integer>>> {
+import static modern.java.in.action.chapter6.Chapter6.isPrimeType3;
+
+public class PrimeNumbersCollector
+        implements Collector<Integer, Map<Boolean, List<Integer>>, Map<Boolean, List<Integer>>> {
     @Override
     public Supplier<Map<Boolean, List<Integer>>> supplier() {
-        return () -> new HashMap<Boolean, List<Integer>>() {
-            {
-                put(true, new ArrayList<Integer>());
-                put(false, new ArrayList<Integer>());
-            }
-        };
+        // Double Brace Initialization
+        return () -> new HashMap<>() {{
+            put(true, new ArrayList<Integer>());
+            put(false, new ArrayList<Integer>());
+        }};
     }
 
     @Override
     public BiConsumer<Map<Boolean, List<Integer>>, Integer> accumulator() {
         return (Map<Boolean, List<Integer>> acc, Integer candidate) -> {
-            acc.get(isPrime(acc.get(true), candidate)).add(candidate);
+            acc.get(isPrimeType3(acc.get(true), candidate))
+                    .add(candidate);
         };
     }
 
@@ -43,10 +45,5 @@ public class PrimeNumbersCollector implements Collector<Integer,
     @Override
     public Set<Characteristics> characteristics() {
         return Collections.unmodifiableSet(EnumSet.of(Characteristics.IDENTITY_FINISH));
-    }
-
-    public boolean isPrime(List<Integer> primes, int candidate) {
-        int candidateRoot = (int) Math.sqrt((double)candidate);
-        return primes.stream().takeWhile(i -> i <= candidateRoot).noneMatch(i -> candidate % i == 0);
     }
 }
