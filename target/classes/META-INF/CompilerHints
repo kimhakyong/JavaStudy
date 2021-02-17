@@ -1,0 +1,11 @@
+dontinline,*.*_all_jmhStub
+dontinline,*.*_avgt_jmhStub
+dontinline,*.*_sample_jmhStub
+dontinline,*.*_ss_jmhStub
+dontinline,*.*_thrpt_jmhStub
+inline,modern/java/in/action/chapter7/ParallelStreamBenchmark.iterativeSum
+inline,modern/java/in/action/chapter7/ParallelStreamBenchmark.parallelRangedRum
+inline,modern/java/in/action/chapter7/ParallelStreamBenchmark.parallelSum
+inline,modern/java/in/action/chapter7/ParallelStreamBenchmark.rangedSum
+inline,modern/java/in/action/chapter7/ParallelStreamBenchmark.sequentialSum
+inline,modern/java/in/action/chapter7/ParallelStreamBenchmark.tearDown

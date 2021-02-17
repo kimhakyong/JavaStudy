@@ -1,0 +1,32 @@
+log4j.logger.pg.tp = ERROR, File
+log4j.logger.pg.tp.fnis = INFO, File
+log4j.logger.pg.tp.bean.JSPLogger = INFO, syslog
+log4j.logger.filters = INFO, File, syslog
+log4j.logger.pages = INFO, File, syslog
+
+# ConApp is set to be a ConsoleAppender
+log4j.appender.ConApp=org.apache.log4j.ConsoleAppender
+log4j.appender.ConApp.layout=org.apache.log4j.PatternLayout
+log4j.appender.ConApp.layout.ConversionPattern=%d [%t] %-5p %c - %m%n 
+
+# FileApp is to create log-file using RollingFileAppender
+log4j.appender.FileApp=org.apache.log4j.RollingFileAppender
+log4j.appender.FileApp.File=/tplog/newpg/log/FileApp.log
+log4j.appender.Fileapp.MaxFileSize=500KB
+
+# Keep One Backup File
+log4j.appender.FileApp.MaxBackupIndex=1
+log4j.appender.FileApp.layout=org.apache.log4j.PatternLayout
+log4j.appender.FileApp.layout.ConversionPattern=%d [%t] %-5p %c - %m%n
+
+log4j.appender.File=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.File.layout=org.apache.log4j.PatternLayout
+log4j.appender.File.layout.ConversionPattern=%d %-5p %c - %m%n
+log4j.appender.File.File=/tp/log/newpg/log/**.log  	
+log4j.appender.File.DatePattern='.'yyyyMMdd
+
+log4j.appender.syslog=org.apache.log4j.net.SyslogAppender
+log4j.appender.syslog.SyslogHost=172.16.201.193
+log4j.appender.syslog.facility=local5		# local6
+log4j.appender.syslog.layout=org.apache.log4j.PatternLayout
+log4j.appender.syslog.layout.ConversionPattern=%-5p %c - %m%n
