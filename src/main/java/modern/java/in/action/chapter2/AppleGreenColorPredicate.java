@@ -1,6 +1,8 @@
 package modern.java.in.action.chapter2;
 
-import static modern.java.in.action.chapter2.Color.GREEN;
+import modern.java.in.action.sample.Apple;
+
+import static modern.java.in.action.sample.Color.GREEN;
 
 public class AppleGreenColorPredicate implements ApplePredicate {
     @Override

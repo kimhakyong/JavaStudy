@@ -37,7 +37,7 @@ public class HttpsClientWithDefaultCACert {
 	 * @throws NoSuchAlgorithmException
 	 * @throws KeyManagementException
 	 */
-	public void getHttps(String urlString) throws IOException, NoSuchAlgorithmException, KeyManagementException {
+	public void getHttps(String urlString) throws Exception {
 
 		// Get HTTPS URL connection
 		URL url = new URL(urlString);
@@ -67,13 +67,9 @@ public class HttpsClientWithDefaultCACert {
 				try {
 					// Get trust store
 					KeyStore trustStore = KeyStore.getInstance("JKS");
-					String cacertPath = System.getProperty("java.home") + "/lib/security/cacerts"; // Trust store path
-																									// should be
-																									// different by
-																									// system platform.
-					trustStore.load(new FileInputStream(cacertPath), "changeit".toCharArray()); // Use default
-																								// certification
-																								// validation
+					// String cacertPath = System.getProperty("java.home") + "/lib/security/cacerts";
+					String cacertPath = "D:/Dev/Java/jdk-11.0.2/lib/security/cacerts";
+					trustStore.load(new FileInputStream(cacertPath), "changeit".toCharArray());
 
 					// Get Trust Manager
 					TrustManagerFactory tmf = TrustManagerFactory
@@ -96,6 +92,7 @@ public class HttpsClientWithDefaultCACert {
 				return null;
 			}
 		}}, null);
+
 		conn.setSSLSocketFactory(context.getSocketFactory());
 
 		// Connect to host
@@ -123,21 +120,12 @@ public class HttpsClientWithDefaultCACert {
 
 	/**
 	 * javax.net.ssl.SSLProtocolException: handshake alert: unrecognized_name
-	 * System.setProperty("jsse.enableSNIExtension", "false");
-	 * -Djsse.enableSNIExtension=false 
+	 * System.setProperty("jsse.enableSNIExtension", "false"); -Djsse.enableSNIExtension=false
 	 */
 	public static void main(String[] args) throws Exception {
 		System.out.printf("system https.protocols : %s\n", System.getProperty("https.protocols"));
-	
+
 		HttpsClientWithDefaultCACert test = new HttpsClientWithDefaultCACert();
-		for (String protocol : HTTPS_PROTOCOL) {
-			System.out.printf("protocal : %s\n", protocol);
-			System.setProperty("https.protocols", protocol);
-			try {
-				test.getHttps(XPAY_URL);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-		}
+		test.getHttps(XPAY_URL);
 	}
 }

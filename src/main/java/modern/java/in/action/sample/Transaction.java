@@ -1,4 +1,4 @@
-package modern.java.in.action.chapter1;
+package modern.java.in.action.sample;
 
 import modern.java.in.action.Trader;
 

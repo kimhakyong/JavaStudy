@@ -1,6 +1,6 @@
 package modern.java.in.action.chapter1;
 
-import net.jackbauer.study.App;
+import modern.java.in.action.sample.Apple;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -9,10 +9,17 @@ import java.util.Arrays;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
-import static modern.java.in.action.chapter1.Color.GREEN;
-import static modern.java.in.action.chapter1.Color.RED;
+import static modern.java.in.action.sample.Color.GREEN;
+import static modern.java.in.action.sample.Color.RED;
 
-public class Main {
+/*
+    - 스트림 API
+    - 동작 파라미터화(behavior parameterization)로 메서드에 코드를 전달하는 기법
+    - 병렬성과 공유 가변 데이터(shared mutalbe data)
+    - 인터페이스의 디폴트 메서드
+ */
+
+public class Chapter1 {
 
     public static void main(String[] args) {
         fileFilter();
@@ -23,11 +30,23 @@ public class Main {
                 new Apple(120, RED));
 
         appleFilter(inventory);
+        appleStream(inventory);
+    }
 
-//        inventory.stream()
-//                .filter((Apple a) -> GREEN.equals(a.getColor()))
-//                .collect(toList())
-//                .forEach(System.out::println);
+    public static void appleStream(List<Apple> inventory) {
+        // Stream
+        System.out.println("Stream");
+        inventory.stream()
+                .filter((Apple a) -> GREEN.equals(a.getColor()))
+                .collect(toList())
+                .forEach(System.out::println);
+
+        // ParallelStream
+        System.out.println("ParallelStream");
+        inventory.parallelStream()
+                .filter((Apple a) -> (GREEN.equals(a.getColor()) && a.getWeight() > 150))
+                .collect(toList())
+                .forEach(System.out::println);
     }
 
     public static void appleFilter(List<Apple> inventory) {
