@@ -1,4 +1,4 @@
-package modern.java.in.action.chapter5;
+package modern.java.in.action.sample;
 
 import java.util.Objects;
 

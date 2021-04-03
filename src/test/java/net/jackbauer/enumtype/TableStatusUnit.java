@@ -11,7 +11,7 @@ public class TableStatusUnit {
 		TableStatus origin = TableStatus.Y;
 		
 		String table1Value = origin.getTable1Value();
-		boolean table2Value = origin.getTable2Value();
+		boolean table2Value = origin.isTable2Value();
 		
 		assertEquals(origin, TableStatus.Y);
 		assertEquals(table1Value, "1");

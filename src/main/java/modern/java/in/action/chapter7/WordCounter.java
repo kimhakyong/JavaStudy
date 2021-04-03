@@ -9,7 +9,7 @@ public class WordCounter {
         this.lastSpace = lastSpace;
     }
 
-    public WordCounter accumlate(Character c) {
+    public WordCounter accumulate(Character c) {
         if (Character.isWhitespace(c)) {
             return lastSpace ? this : new WordCounter(counter, true);
         }  else {
