@@ -1,5 +1,7 @@
 package net.jackbauer.enumtype;
 
+import net.jackbauer.enumtype.pay.PayGroup;
+import net.jackbauer.enumtype.pay.PayType;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.CoreMatchers.is;

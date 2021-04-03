@@ -1,4 +1,4 @@
-package net.jackbauer.enumtype;
+package net.jackbauer.enumtype.pay;
 
 import lombok.Getter;
 
