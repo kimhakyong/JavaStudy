@@ -1,184 +1,184 @@
-14:48:20.947 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_212-1-ojdkbuild
-14:48:20.958 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
-14:48:20.958 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java class path: D:\Dev\Eclipse\2019-03\workspace\study\target\classes;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-codec-1.3.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-httpclient-3.1.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-logging.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1\geronimo-jms_1.1_spec-1.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\qpid-jms-client\0.40.0\qpid-jms-client-0.40.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_2.0_spec\1.0-alpha-2\geronimo-jms_2.0_spec-1.0-alpha-2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\proton-j\0.31.0\proton-j-0.31.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-buffer\4.1.32.Final\netty-buffer-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-common\4.1.32.Final\netty-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-handler\4.1.32.Final\netty-handler-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec\4.1.32.Final\netty-codec-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport\4.1.32.Final\netty-transport-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-resolver\4.1.32.Final\netty-resolver-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-epoll\4.1.32.Final\netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-unix-common\4.1.32.Final\netty-transport-native-unix-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-kqueue\4.1.32.Final\netty-transport-native-kqueue-4.1.32.Final-osx-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec-http\4.1.32.Final\netty-codec-http-4.1.32.Final.jar
-14:48:20.960 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system name: Windows 10
-14:48:20.960 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
-14:48:20.960 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system version: 10.0
-14:48:20.990 [main] DEBUG org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
-14:48:20.990 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
-14:48:20.990 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
-14:48:20.990 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
-14:48:20.990 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
-14:48:20.990 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
-14:48:20.990 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
-14:48:20.990 [main] DEBUG org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
-14:48:20.991 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
-14:48:20.991 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
-14:48:20.995 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
-14:48:20.997 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
-14:48:20.998 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
-14:48:20.998 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
-14:48:20.998 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
-14:48:20.999 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
-14:48:21.000 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@3c407114
-14:48:21.000 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
-14:48:21.027 [main] DEBUG org.apache.commons.httpclient.methods.GetMethod - enter GetMethod(String)
-14:48:21.027 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@323b36e0
-14:48:21.027 [main] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HttpMethod)
-14:48:21.028 [main] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
-14:48:21.036 [main] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Attempt number 1 to process request
-14:48:21.042 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.open()
-14:48:21.042 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Open connection to localhost:8080
-14:48:21.056 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.execute(HttpState, HttpConnection)
-14:48:21.056 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
-14:48:21.056 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
-14:48:21.056 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
-14:48:21.058 [main] DEBUG httpclient.wire.header - >> "GET /web/index.jsp HTTP/1.1[\r][\n]"
-14:48:21.058 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-14:48:21.058 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-14:48:21.058 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-14:48:21.059 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
-14:48:21.059 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
-14:48:21.059 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
-14:48:21.059 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
-14:48:21.059 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
-14:48:21.059 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
-14:48:21.069 [main] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.getCookies()
-14:48:21.069 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
-14:48:21.069 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
-14:48:21.069 [main] DEBUG httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
-14:48:21.069 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-14:48:21.069 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-14:48:21.069 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-14:48:21.070 [main] DEBUG httpclient.wire.header - >> "Host: localhost:8080[\r][\n]"
-14:48:21.070 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-14:48:21.070 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-14:48:21.070 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-14:48:21.070 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.writeLine()
-14:48:21.070 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-14:48:21.070 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-14:48:21.070 [main] DEBUG httpclient.wire.header - >> "[\r][\n]"
-14:48:21.070 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.flushRequestOutputStream()
-14:48:21.070 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
-14:48:21.071 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
-14:48:21.071 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.readLine()
-14:48:21.074 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-14:48:21.074 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-14:48:21.078 [main] DEBUG httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
-14:48:21.078 [main] DEBUG httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
-14:48:21.079 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
-14:48:21.079 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.getResponseInputStream()
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HeaderParser.parseHeaders(InputStream, String)
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-14:48:21.080 [main] DEBUG httpclient.wire.header - << "Server: Apache-Coyote/1.1[\r][\n]"
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-14:48:21.080 [main] DEBUG httpclient.wire.header - << "Set-Cookie: JSESSIONID=0A97468F8EEDAEA211C013D3731A1323; Path=/web; HttpOnly[\r][\n]"
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-14:48:21.080 [main] DEBUG httpclient.wire.header - << "Content-Type: text/html;charset=ISO-8859-1[\r][\n]"
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-14:48:21.080 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-14:48:21.081 [main] DEBUG httpclient.wire.header - << "Content-Length: 57[\r][\n]"
-14:48:21.081 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-14:48:21.081 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-14:48:21.081 [main] DEBUG httpclient.wire.header - << "Date: Mon, 18 Nov 2019 05:48:21 GMT[\r][\n]"
-14:48:21.081 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-14:48:21.081 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-14:48:21.082 [main] DEBUG httpclient.wire.header - << "[\r][\n]"
-14:48:21.082 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
-14:48:21.082 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
-14:48:21.082 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.parse(String, port, path, boolean, String)
-14:48:21.082 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.parse(String, port, path, boolean, Header)
-14:48:21.083 [main] DEBUG org.apache.commons.httpclient.HeaderElement - enter HeaderElement.parseElements(char[])
-14:48:21.084 [main] DEBUG org.apache.commons.httpclient.Cookie - enter Cookie(String, String, String, String, Date, boolean)
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - Unrecognized cookie attribute: name=HttpOnly, value=null
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.addCookie(Cookie)
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter RFC2109Spec.formatCookie(Cookie)
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; JSESSIONID=0A97468F8EEDAEA211C013D3731A1323; $Path=/web"
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseBody(HttpConnection)
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.getResponseInputStream()
-14:48:21.085 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.canResponseHaveBody(int)
-14:48:21.087 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Buffering response body
-14:48:21.087 [main] DEBUG httpclient.wire.content - << "<html>[\r][\n]"
-14:48:21.087 [main] DEBUG httpclient.wire.content - << "<body>[\r][\n]"
-14:48:21.087 [main] DEBUG httpclient.wire.content - << "<h2>Hello World!</h2>[\r][\n]"
-14:48:21.087 [main] DEBUG httpclient.wire.content - << "</body>[\r][\n]"
-14:48:21.087 [main] DEBUG httpclient.wire.content - << "</html>[\r][\n]"
-14:48:21.088 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Resorting to protocol version default close connection policy
-14:48:21.088 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Should NOT close connection, using HTTP/1.1
-14:48:21.088 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.isResponseAvailable()
-14:48:21.088 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
-14:48:21.088 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
-14:48:39.223 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_212-1-ojdkbuild
-14:48:39.226 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
-14:48:39.226 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java class path: D:\Dev\Eclipse\2019-03\workspace\study\target\classes;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-codec-1.3.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-httpclient-3.1.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-logging.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1\geronimo-jms_1.1_spec-1.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\qpid-jms-client\0.40.0\qpid-jms-client-0.40.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_2.0_spec\1.0-alpha-2\geronimo-jms_2.0_spec-1.0-alpha-2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\proton-j\0.31.0\proton-j-0.31.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-buffer\4.1.32.Final\netty-buffer-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-common\4.1.32.Final\netty-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-handler\4.1.32.Final\netty-handler-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec\4.1.32.Final\netty-codec-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport\4.1.32.Final\netty-transport-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-resolver\4.1.32.Final\netty-resolver-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-epoll\4.1.32.Final\netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-unix-common\4.1.32.Final\netty-transport-native-unix-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-kqueue\4.1.32.Final\netty-transport-native-kqueue-4.1.32.Final-osx-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec-http\4.1.32.Final\netty-codec-http-4.1.32.Final.jar
-14:48:39.227 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system name: Windows 10
-14:48:39.227 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
-14:48:39.227 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system version: 10.0
-14:48:39.251 [main] DEBUG org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
-14:48:39.251 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
-14:48:39.251 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
-14:48:39.251 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
-14:48:39.251 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
-14:48:39.251 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
-14:48:39.251 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
-14:48:39.251 [main] DEBUG org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
-14:48:39.252 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
-14:48:39.252 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
-14:48:39.255 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
-14:48:39.257 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
-14:48:39.258 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
-14:48:39.258 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
-14:48:39.258 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
-14:48:39.258 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
-14:48:39.259 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@27ce24aa
-14:48:39.259 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
-14:48:39.285 [main] DEBUG org.apache.commons.httpclient.methods.GetMethod - enter GetMethod(String)
-14:48:39.285 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6aba2b86
-14:48:39.285 [main] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HttpMethod)
-14:48:39.285 [main] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
-14:48:39.294 [main] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Attempt number 1 to process request
-14:48:39.295 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.open()
-14:48:39.295 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Open connection to localhost:8443
-14:48:39.484 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.execute(HttpState, HttpConnection)
-14:48:39.484 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
-14:48:39.484 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
-14:48:39.485 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
-14:48:39.486 [main] DEBUG httpclient.wire.header - >> "GET /web/index.jsp HTTP/1.1[\r][\n]"
-14:48:39.486 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-14:48:39.486 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-14:48:39.486 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-14:48:39.487 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
-14:48:39.487 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
-14:48:39.487 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
-14:48:39.487 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
-14:48:39.487 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
-14:48:39.488 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
-14:48:39.499 [main] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.getCookies()
-14:48:39.499 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
-14:48:39.499 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
-14:48:39.499 [main] DEBUG httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
-14:48:39.499 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-14:48:39.499 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-14:48:39.500 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-14:48:39.500 [main] DEBUG httpclient.wire.header - >> "Host: localhost:8443[\r][\n]"
-14:48:39.500 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-14:48:39.500 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-14:48:39.500 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-14:48:39.500 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.writeLine()
-14:48:39.500 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-14:48:39.500 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-14:48:39.500 [main] DEBUG httpclient.wire.header - >> "[\r][\n]"
-14:48:39.500 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.flushRequestOutputStream()
-14:48:39.678 [main] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Closing the connection.
-14:48:39.678 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.close()
-14:48:39.678 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.closeSockedAndStreams()
-14:48:39.678 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Exception caught when closing output
+14:48:20.947 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_212-1-ojdkbuild
+14:48:20.958 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
+14:48:20.958 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java class path: D:\Dev\Eclipse\2019-03\workspace\study\target\classes;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-codec-1.3.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-httpclient-3.1.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-logging.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1\geronimo-jms_1.1_spec-1.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\qpid-jms-client\0.40.0\qpid-jms-client-0.40.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_2.0_spec\1.0-alpha-2\geronimo-jms_2.0_spec-1.0-alpha-2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\proton-j\0.31.0\proton-j-0.31.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-buffer\4.1.32.Final\netty-buffer-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-common\4.1.32.Final\netty-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-handler\4.1.32.Final\netty-handler-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec\4.1.32.Final\netty-codec-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport\4.1.32.Final\netty-transport-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-resolver\4.1.32.Final\netty-resolver-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-epoll\4.1.32.Final\netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-unix-common\4.1.32.Final\netty-transport-native-unix-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-kqueue\4.1.32.Final\netty-transport-native-kqueue-4.1.32.Final-osx-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec-http\4.1.32.Final\netty-codec-http-4.1.32.Final.jar
+14:48:20.960 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system name: Windows 10
+14:48:20.960 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
+14:48:20.960 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system version: 10.0
+14:48:20.990 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+14:48:20.990 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
+14:48:20.990 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+14:48:20.990 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+14:48:20.990 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+14:48:20.990 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+14:48:20.990 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+14:48:20.990 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+14:48:20.991 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
+14:48:20.991 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+14:48:20.995 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+14:48:20.997 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
+14:48:20.998 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+14:48:20.998 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
+14:48:20.998 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
+14:48:20.999 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
+14:48:21.000 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@3c407114
+14:48:21.000 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+14:48:21.027 [chatper7] DEBUG org.apache.commons.httpclient.methods.GetMethod - enter GetMethod(String)
+14:48:21.027 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@323b36e0
+14:48:21.027 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HttpMethod)
+14:48:21.028 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+14:48:21.036 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Attempt number 1 to process request
+14:48:21.042 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.open()
+14:48:21.042 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Open connection to localhost:8080
+14:48:21.056 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.execute(HttpState, HttpConnection)
+14:48:21.056 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+14:48:21.056 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+14:48:21.056 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+14:48:21.058 [chatper7] DEBUG httpclient.wire.header - >> "GET /web/index.jsp HTTP/1.1[\r][\n]"
+14:48:21.058 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+14:48:21.058 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+14:48:21.058 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+14:48:21.059 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+14:48:21.059 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+14:48:21.059 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+14:48:21.059 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+14:48:21.059 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
+14:48:21.059 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+14:48:21.069 [chatper7] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.getCookies()
+14:48:21.069 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+14:48:21.069 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+14:48:21.069 [chatper7] DEBUG httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+14:48:21.069 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+14:48:21.069 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+14:48:21.069 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+14:48:21.070 [chatper7] DEBUG httpclient.wire.header - >> "Host: localhost:8080[\r][\n]"
+14:48:21.070 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+14:48:21.070 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+14:48:21.070 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+14:48:21.070 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.writeLine()
+14:48:21.070 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+14:48:21.070 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+14:48:21.070 [chatper7] DEBUG httpclient.wire.header - >> "[\r][\n]"
+14:48:21.070 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.flushRequestOutputStream()
+14:48:21.070 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+14:48:21.071 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+14:48:21.071 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.readLine()
+14:48:21.074 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+14:48:21.074 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+14:48:21.078 [chatper7] DEBUG httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+14:48:21.078 [chatper7] DEBUG httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+14:48:21.079 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+14:48:21.079 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.getResponseInputStream()
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HeaderParser.parseHeaders(InputStream, String)
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+14:48:21.080 [chatper7] DEBUG httpclient.wire.header - << "Server: Apache-Coyote/1.1[\r][\n]"
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+14:48:21.080 [chatper7] DEBUG httpclient.wire.header - << "Set-Cookie: JSESSIONID=0A97468F8EEDAEA211C013D3731A1323; Path=/web; HttpOnly[\r][\n]"
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+14:48:21.080 [chatper7] DEBUG httpclient.wire.header - << "Content-Type: text/html;charset=ISO-8859-1[\r][\n]"
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+14:48:21.080 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+14:48:21.081 [chatper7] DEBUG httpclient.wire.header - << "Content-Length: 57[\r][\n]"
+14:48:21.081 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+14:48:21.081 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+14:48:21.081 [chatper7] DEBUG httpclient.wire.header - << "Date: Mon, 18 Nov 2019 05:48:21 GMT[\r][\n]"
+14:48:21.081 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+14:48:21.081 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+14:48:21.082 [chatper7] DEBUG httpclient.wire.header - << "[\r][\n]"
+14:48:21.082 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+14:48:21.082 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+14:48:21.082 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.parse(String, port, path, boolean, String)
+14:48:21.082 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.parse(String, port, path, boolean, Header)
+14:48:21.083 [chatper7] DEBUG org.apache.commons.httpclient.HeaderElement - enter HeaderElement.parseElements(char[])
+14:48:21.084 [chatper7] DEBUG org.apache.commons.httpclient.Cookie - enter Cookie(String, String, String, String, Date, boolean)
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - Unrecognized cookie attribute: name=HttpOnly, value=null
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.addCookie(Cookie)
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter RFC2109Spec.formatCookie(Cookie)
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; JSESSIONID=0A97468F8EEDAEA211C013D3731A1323; $Path=/web"
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseBody(HttpConnection)
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.getResponseInputStream()
+14:48:21.085 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.canResponseHaveBody(int)
+14:48:21.087 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Buffering response body
+14:48:21.087 [chatper7] DEBUG httpclient.wire.content - << "<html>[\r][\n]"
+14:48:21.087 [chatper7] DEBUG httpclient.wire.content - << "<body>[\r][\n]"
+14:48:21.087 [chatper7] DEBUG httpclient.wire.content - << "<h2>Hello World!</h2>[\r][\n]"
+14:48:21.087 [chatper7] DEBUG httpclient.wire.content - << "</body>[\r][\n]"
+14:48:21.087 [chatper7] DEBUG httpclient.wire.content - << "</html>[\r][\n]"
+14:48:21.088 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Resorting to protocol version default close connection policy
+14:48:21.088 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Should NOT close connection, using HTTP/1.1
+14:48:21.088 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.isResponseAvailable()
+14:48:21.088 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
+14:48:21.088 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+14:48:39.223 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_212-1-ojdkbuild
+14:48:39.226 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
+14:48:39.226 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java class path: D:\Dev\Eclipse\2019-03\workspace\study\target\classes;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-codec-1.3.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-httpclient-3.1.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-logging.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1\geronimo-jms_1.1_spec-1.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\qpid-jms-client\0.40.0\qpid-jms-client-0.40.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_2.0_spec\1.0-alpha-2\geronimo-jms_2.0_spec-1.0-alpha-2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\proton-j\0.31.0\proton-j-0.31.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-buffer\4.1.32.Final\netty-buffer-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-common\4.1.32.Final\netty-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-handler\4.1.32.Final\netty-handler-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec\4.1.32.Final\netty-codec-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport\4.1.32.Final\netty-transport-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-resolver\4.1.32.Final\netty-resolver-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-epoll\4.1.32.Final\netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-unix-common\4.1.32.Final\netty-transport-native-unix-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-kqueue\4.1.32.Final\netty-transport-native-kqueue-4.1.32.Final-osx-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec-http\4.1.32.Final\netty-codec-http-4.1.32.Final.jar
+14:48:39.227 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system name: Windows 10
+14:48:39.227 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
+14:48:39.227 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system version: 10.0
+14:48:39.251 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+14:48:39.251 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
+14:48:39.251 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+14:48:39.251 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+14:48:39.251 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+14:48:39.251 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+14:48:39.251 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+14:48:39.251 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+14:48:39.252 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
+14:48:39.252 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+14:48:39.255 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+14:48:39.257 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
+14:48:39.258 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+14:48:39.258 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
+14:48:39.258 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
+14:48:39.258 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
+14:48:39.259 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@27ce24aa
+14:48:39.259 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+14:48:39.285 [chatper7] DEBUG org.apache.commons.httpclient.methods.GetMethod - enter GetMethod(String)
+14:48:39.285 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6aba2b86
+14:48:39.285 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HttpMethod)
+14:48:39.285 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+14:48:39.294 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Attempt number 1 to process request
+14:48:39.295 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.open()
+14:48:39.295 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Open connection to localhost:8443
+14:48:39.484 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.execute(HttpState, HttpConnection)
+14:48:39.484 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+14:48:39.484 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+14:48:39.485 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+14:48:39.486 [chatper7] DEBUG httpclient.wire.header - >> "GET /web/index.jsp HTTP/1.1[\r][\n]"
+14:48:39.486 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+14:48:39.486 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+14:48:39.486 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+14:48:39.487 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+14:48:39.487 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+14:48:39.487 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+14:48:39.487 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+14:48:39.487 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
+14:48:39.488 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+14:48:39.499 [chatper7] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.getCookies()
+14:48:39.499 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+14:48:39.499 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+14:48:39.499 [chatper7] DEBUG httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+14:48:39.499 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+14:48:39.499 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+14:48:39.500 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+14:48:39.500 [chatper7] DEBUG httpclient.wire.header - >> "Host: localhost:8443[\r][\n]"
+14:48:39.500 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+14:48:39.500 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+14:48:39.500 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+14:48:39.500 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.writeLine()
+14:48:39.500 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+14:48:39.500 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+14:48:39.500 [chatper7] DEBUG httpclient.wire.header - >> "[\r][\n]"
+14:48:39.500 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.flushRequestOutputStream()
+14:48:39.678 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Closing the connection.
+14:48:39.678 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.close()
+14:48:39.678 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.closeSockedAndStreams()
+14:48:39.678 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Exception caught when closing output
 javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 	at sun.security.ssl.SSLSocketImpl.checkEOF(SSLSocketImpl.java:1533) ~[?:1.8.0_212-1-ojdkbuild]
 	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1545) ~[?:1.8.0_212-1-ojdkbuild]
@@ -192,7 +192,7 @@ javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLHands
 	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171) [commons-httpclient-3.1.jar:?]
 	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397) [commons-httpclient-3.1.jar:?]
 	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323) [commons-httpclient-3.1.jar:?]
-	at net.jackbauer.httpclient.HttpClientTutorial.main(HttpClientTutorial.java:31) [classes/:?]
+	at net.jackbauer.httpclient.HttpClientTutorial.chatper7(HttpClientTutorial.java:31) [classes/:?]
 Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_212-1-ojdkbuild]
 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946) ~[?:1.8.0_212-1-ojdkbuild]
@@ -260,192 +260,192 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1096) ~[commons-httpclient-3.1.jar:?]
 	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398) ~[commons-httpclient-3.1.jar:?]
 	... 4 more
-14:48:39.687 [main] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Method retry handler returned false. Automatic recovery will not be attempted
-14:48:39.687 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
-14:48:39.687 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
-14:48:39.690 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
-14:48:39.691 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
-16:01:57.567 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_212-1-ojdkbuild
-16:01:57.571 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
-16:01:57.572 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java class path: D:\Dev\Eclipse\2019-03\workspace\study\target\classes;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-codec-1.3.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-httpclient-3.1.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-logging.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1\geronimo-jms_1.1_spec-1.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\qpid-jms-client\0.40.0\qpid-jms-client-0.40.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_2.0_spec\1.0-alpha-2\geronimo-jms_2.0_spec-1.0-alpha-2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\proton-j\0.31.0\proton-j-0.31.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-buffer\4.1.32.Final\netty-buffer-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-common\4.1.32.Final\netty-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-handler\4.1.32.Final\netty-handler-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec\4.1.32.Final\netty-codec-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport\4.1.32.Final\netty-transport-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-resolver\4.1.32.Final\netty-resolver-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-epoll\4.1.32.Final\netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-unix-common\4.1.32.Final\netty-transport-native-unix-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-kqueue\4.1.32.Final\netty-transport-native-kqueue-4.1.32.Final-osx-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec-http\4.1.32.Final\netty-codec-http-4.1.32.Final.jar
-16:01:57.573 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system name: Windows 10
-16:01:57.573 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
-16:01:57.573 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system version: 10.0
-16:01:57.595 [main] DEBUG org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
-16:01:57.595 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
-16:01:57.595 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
-16:01:57.595 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
-16:01:57.595 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
-16:01:57.595 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
-16:01:57.596 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
-16:01:57.596 [main] DEBUG org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
-16:01:57.596 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
-16:01:57.596 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
-16:01:57.602 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
-16:01:57.604 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
-16:01:57.606 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
-16:01:57.606 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
-16:01:57.606 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
-16:01:57.606 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
-16:01:57.608 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@27ce24aa
-16:01:57.608 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
-16:01:57.649 [main] DEBUG org.apache.commons.httpclient.methods.GetMethod - enter GetMethod(String)
-16:01:57.649 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6aba2b86
-16:01:57.649 [main] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HttpMethod)
-16:01:57.649 [main] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
-16:01:57.659 [main] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Attempt number 1 to process request
-16:01:57.659 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.open()
-16:01:57.659 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Open connection to localhost:8080
-16:01:57.669 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.execute(HttpState, HttpConnection)
-16:01:57.675 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
-16:01:57.676 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
-16:01:57.676 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
-16:01:57.678 [main] DEBUG httpclient.wire.header - >> "GET /web/index.jsp HTTP/1.1[\r][\n]"
-16:01:57.678 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-16:01:57.678 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-16:01:57.679 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-16:01:57.679 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
-16:01:57.680 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
-16:01:57.680 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
-16:01:57.680 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
-16:01:57.680 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
-16:01:57.680 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
-16:01:57.692 [main] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.getCookies()
-16:01:57.692 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
-16:01:57.692 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
-16:01:57.693 [main] DEBUG httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
-16:01:57.693 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-16:01:57.693 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-16:01:57.693 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-16:01:57.693 [main] DEBUG httpclient.wire.header - >> "Host: localhost:8080[\r][\n]"
-16:01:57.693 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-16:01:57.693 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-16:01:57.694 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-16:01:57.694 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.writeLine()
-16:01:57.694 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-16:01:57.694 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-16:01:57.694 [main] DEBUG httpclient.wire.header - >> "[\r][\n]"
-16:01:57.694 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.flushRequestOutputStream()
-16:01:57.694 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
-16:01:57.694 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
-16:01:57.694 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.readLine()
-16:01:57.696 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-16:01:57.697 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-16:01:57.711 [main] DEBUG httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
-16:01:57.711 [main] DEBUG httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
-16:01:57.712 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
-16:01:57.712 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.getResponseInputStream()
-16:01:57.712 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HeaderParser.parseHeaders(InputStream, String)
-16:01:57.712 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-16:01:57.712 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-16:01:57.712 [main] DEBUG httpclient.wire.header - << "Server: Apache-Coyote/1.1[\r][\n]"
-16:01:57.713 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-16:01:57.713 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-16:01:57.713 [main] DEBUG httpclient.wire.header - << "Set-Cookie: JSESSIONID=2E661485CB29175DF01526AF1CA43641; Path=/web; HttpOnly[\r][\n]"
-16:01:57.713 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-16:01:57.713 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-16:01:57.713 [main] DEBUG httpclient.wire.header - << "Content-Type: text/html;charset=ISO-8859-1[\r][\n]"
-16:01:57.713 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-16:01:57.713 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-16:01:57.713 [main] DEBUG httpclient.wire.header - << "Content-Length: 57[\r][\n]"
-16:01:57.713 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-16:01:57.713 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-16:01:57.713 [main] DEBUG httpclient.wire.header - << "Date: Mon, 18 Nov 2019 07:01:57 GMT[\r][\n]"
-16:01:57.714 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
-16:01:57.714 [main] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
-16:01:57.714 [main] DEBUG httpclient.wire.header - << "[\r][\n]"
-16:01:57.714 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
-16:01:57.714 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
-16:01:57.714 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.parse(String, port, path, boolean, String)
-16:01:57.714 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.parse(String, port, path, boolean, Header)
-16:01:57.715 [main] DEBUG org.apache.commons.httpclient.HeaderElement - enter HeaderElement.parseElements(char[])
-16:01:57.717 [main] DEBUG org.apache.commons.httpclient.Cookie - enter Cookie(String, String, String, String, Date, boolean)
-16:01:57.717 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - Unrecognized cookie attribute: name=HttpOnly, value=null
-16:01:57.717 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
-16:01:57.717 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
-16:01:57.717 [main] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.addCookie(Cookie)
-16:01:57.718 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter RFC2109Spec.formatCookie(Cookie)
-16:01:57.718 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; JSESSIONID=2E661485CB29175DF01526AF1CA43641; $Path=/web"
-16:01:57.718 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
-16:01:57.718 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseBody(HttpConnection)
-16:01:57.718 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.getResponseInputStream()
-16:01:57.718 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.canResponseHaveBody(int)
-16:01:57.719 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Buffering response body
-16:01:57.719 [main] DEBUG httpclient.wire.content - << "<html>[\r][\n]"
-16:01:57.720 [main] DEBUG httpclient.wire.content - << "<body>[\r][\n]"
-16:01:57.720 [main] DEBUG httpclient.wire.content - << "<h2>Hello World!</h2>[\r][\n]"
-16:01:57.720 [main] DEBUG httpclient.wire.content - << "</body>[\r][\n]"
-16:01:57.720 [main] DEBUG httpclient.wire.content - << "</html>[\r][\n]"
-16:01:57.721 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Resorting to protocol version default close connection policy
-16:01:57.721 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Should NOT close connection, using HTTP/1.1
-16:01:57.721 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.isResponseAvailable()
-16:01:57.721 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
-16:01:57.721 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
-16:08:33.423 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_212-1-ojdkbuild
-16:08:33.429 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
-16:08:33.429 [main] DEBUG org.apache.commons.httpclient.HttpClient - Java class path: D:\Dev\Eclipse\2019-03\workspace\study\target\classes;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-codec-1.3.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-httpclient-3.1.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-logging.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1\geronimo-jms_1.1_spec-1.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\qpid-jms-client\0.40.0\qpid-jms-client-0.40.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_2.0_spec\1.0-alpha-2\geronimo-jms_2.0_spec-1.0-alpha-2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\proton-j\0.31.0\proton-j-0.31.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-buffer\4.1.32.Final\netty-buffer-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-common\4.1.32.Final\netty-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-handler\4.1.32.Final\netty-handler-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec\4.1.32.Final\netty-codec-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport\4.1.32.Final\netty-transport-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-resolver\4.1.32.Final\netty-resolver-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-epoll\4.1.32.Final\netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-unix-common\4.1.32.Final\netty-transport-native-unix-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-kqueue\4.1.32.Final\netty-transport-native-kqueue-4.1.32.Final-osx-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec-http\4.1.32.Final\netty-codec-http-4.1.32.Final.jar
-16:08:33.430 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system name: Windows 10
-16:08:33.430 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
-16:08:33.430 [main] DEBUG org.apache.commons.httpclient.HttpClient - Operating system version: 10.0
-16:08:33.459 [main] DEBUG org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
-16:08:33.459 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
-16:08:33.459 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
-16:08:33.460 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
-16:08:33.460 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
-16:08:33.460 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
-16:08:33.460 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
-16:08:33.460 [main] DEBUG org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
-16:08:33.460 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
-16:08:33.460 [main] DEBUG org.apache.commons.httpclient.HttpClient - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
-16:08:33.465 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
-16:08:33.466 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
-16:08:33.468 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
-16:08:33.468 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
-16:08:33.468 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
-16:08:33.468 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
-16:08:33.470 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@27ce24aa
-16:08:33.470 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
-16:08:33.505 [main] DEBUG org.apache.commons.httpclient.methods.GetMethod - enter GetMethod(String)
-16:08:33.506 [main] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6aba2b86
-16:08:33.506 [main] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HttpMethod)
-16:08:33.507 [main] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
-16:08:33.521 [main] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Attempt number 1 to process request
-16:08:33.521 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.open()
-16:08:33.521 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Open connection to www.daum.net:443
-16:08:33.750 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.execute(HttpState, HttpConnection)
-16:08:33.751 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
-16:08:33.751 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
-16:08:33.751 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
-16:08:33.753 [main] DEBUG httpclient.wire.header - >> "GET / HTTP/1.1[\r][\n]"
-16:08:33.753 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-16:08:33.754 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-16:08:33.754 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-16:08:33.754 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
-16:08:33.754 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
-16:08:33.754 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
-16:08:33.755 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
-16:08:33.755 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
-16:08:33.755 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
-16:08:33.767 [main] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.getCookies()
-16:08:33.768 [main] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
-16:08:33.768 [main] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
-16:08:33.768 [main] DEBUG httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
-16:08:33.768 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-16:08:33.768 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-16:08:33.768 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-16:08:33.769 [main] DEBUG httpclient.wire.header - >> "Host: www.daum.net[\r][\n]"
-16:08:33.769 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
-16:08:33.769 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-16:08:33.769 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-16:08:33.769 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.writeLine()
-16:08:33.769 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
-16:08:33.769 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
-16:08:33.769 [main] DEBUG httpclient.wire.header - >> "[\r][\n]"
-16:08:33.769 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.flushRequestOutputStream()
-16:08:33.932 [main] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Closing the connection.
-16:08:33.932 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.close()
-16:08:33.932 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.closeSockedAndStreams()
-16:08:33.932 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Exception caught when closing output
+14:48:39.687 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Method retry handler returned false. Automatic recovery will not be attempted
+14:48:39.687 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
+14:48:39.687 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+14:48:39.690 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
+14:48:39.691 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+16:01:57.567 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_212-1-ojdkbuild
+16:01:57.571 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
+16:01:57.572 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java class path: D:\Dev\Eclipse\2019-03\workspace\study\target\classes;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-codec-1.3.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-httpclient-3.1.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-logging.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1\geronimo-jms_1.1_spec-1.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\qpid-jms-client\0.40.0\qpid-jms-client-0.40.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_2.0_spec\1.0-alpha-2\geronimo-jms_2.0_spec-1.0-alpha-2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\proton-j\0.31.0\proton-j-0.31.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-buffer\4.1.32.Final\netty-buffer-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-common\4.1.32.Final\netty-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-handler\4.1.32.Final\netty-handler-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec\4.1.32.Final\netty-codec-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport\4.1.32.Final\netty-transport-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-resolver\4.1.32.Final\netty-resolver-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-epoll\4.1.32.Final\netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-unix-common\4.1.32.Final\netty-transport-native-unix-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-kqueue\4.1.32.Final\netty-transport-native-kqueue-4.1.32.Final-osx-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec-http\4.1.32.Final\netty-codec-http-4.1.32.Final.jar
+16:01:57.573 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system name: Windows 10
+16:01:57.573 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
+16:01:57.573 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system version: 10.0
+16:01:57.595 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+16:01:57.595 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
+16:01:57.595 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+16:01:57.595 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+16:01:57.595 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+16:01:57.595 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+16:01:57.596 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+16:01:57.596 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+16:01:57.596 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
+16:01:57.596 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+16:01:57.602 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+16:01:57.604 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
+16:01:57.606 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+16:01:57.606 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
+16:01:57.606 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
+16:01:57.606 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
+16:01:57.608 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@27ce24aa
+16:01:57.608 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+16:01:57.649 [chatper7] DEBUG org.apache.commons.httpclient.methods.GetMethod - enter GetMethod(String)
+16:01:57.649 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6aba2b86
+16:01:57.649 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HttpMethod)
+16:01:57.649 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+16:01:57.659 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Attempt number 1 to process request
+16:01:57.659 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.open()
+16:01:57.659 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Open connection to localhost:8080
+16:01:57.669 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.execute(HttpState, HttpConnection)
+16:01:57.675 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+16:01:57.676 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+16:01:57.676 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+16:01:57.678 [chatper7] DEBUG httpclient.wire.header - >> "GET /web/index.jsp HTTP/1.1[\r][\n]"
+16:01:57.678 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+16:01:57.678 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+16:01:57.679 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+16:01:57.679 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+16:01:57.680 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+16:01:57.680 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+16:01:57.680 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+16:01:57.680 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
+16:01:57.680 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+16:01:57.692 [chatper7] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.getCookies()
+16:01:57.692 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+16:01:57.692 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+16:01:57.693 [chatper7] DEBUG httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+16:01:57.693 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+16:01:57.693 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+16:01:57.693 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+16:01:57.693 [chatper7] DEBUG httpclient.wire.header - >> "Host: localhost:8080[\r][\n]"
+16:01:57.693 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+16:01:57.693 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+16:01:57.694 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+16:01:57.694 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.writeLine()
+16:01:57.694 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+16:01:57.694 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+16:01:57.694 [chatper7] DEBUG httpclient.wire.header - >> "[\r][\n]"
+16:01:57.694 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.flushRequestOutputStream()
+16:01:57.694 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+16:01:57.694 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+16:01:57.694 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.readLine()
+16:01:57.696 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+16:01:57.697 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+16:01:57.711 [chatper7] DEBUG httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+16:01:57.711 [chatper7] DEBUG httpclient.wire.header - << "HTTP/1.1 200 OK[\r][\n]"
+16:01:57.712 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+16:01:57.712 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.getResponseInputStream()
+16:01:57.712 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HeaderParser.parseHeaders(InputStream, String)
+16:01:57.712 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+16:01:57.712 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+16:01:57.712 [chatper7] DEBUG httpclient.wire.header - << "Server: Apache-Coyote/1.1[\r][\n]"
+16:01:57.713 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+16:01:57.713 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+16:01:57.713 [chatper7] DEBUG httpclient.wire.header - << "Set-Cookie: JSESSIONID=2E661485CB29175DF01526AF1CA43641; Path=/web; HttpOnly[\r][\n]"
+16:01:57.713 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+16:01:57.713 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+16:01:57.713 [chatper7] DEBUG httpclient.wire.header - << "Content-Type: text/html;charset=ISO-8859-1[\r][\n]"
+16:01:57.713 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+16:01:57.713 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+16:01:57.713 [chatper7] DEBUG httpclient.wire.header - << "Content-Length: 57[\r][\n]"
+16:01:57.713 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+16:01:57.713 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+16:01:57.713 [chatper7] DEBUG httpclient.wire.header - << "Date: Mon, 18 Nov 2019 07:01:57 GMT[\r][\n]"
+16:01:57.714 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readLine(InputStream, String)
+16:01:57.714 [chatper7] DEBUG org.apache.commons.httpclient.HttpParser - enter HttpParser.readRawLine()
+16:01:57.714 [chatper7] DEBUG httpclient.wire.header - << "[\r][\n]"
+16:01:57.714 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+16:01:57.714 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+16:01:57.714 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.parse(String, port, path, boolean, String)
+16:01:57.714 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.parse(String, port, path, boolean, Header)
+16:01:57.715 [chatper7] DEBUG org.apache.commons.httpclient.HeaderElement - enter HeaderElement.parseElements(char[])
+16:01:57.717 [chatper7] DEBUG org.apache.commons.httpclient.Cookie - enter Cookie(String, String, String, String, Date, boolean)
+16:01:57.717 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - Unrecognized cookie attribute: name=HttpOnly, value=null
+16:01:57.717 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+16:01:57.717 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+16:01:57.717 [chatper7] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.addCookie(Cookie)
+16:01:57.718 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter RFC2109Spec.formatCookie(Cookie)
+16:01:57.718 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Cookie accepted: "$Version=0; JSESSIONID=2E661485CB29175DF01526AF1CA43641; $Path=/web"
+16:01:57.718 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+16:01:57.718 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.readResponseBody(HttpConnection)
+16:01:57.718 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.getResponseInputStream()
+16:01:57.718 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.canResponseHaveBody(int)
+16:01:57.719 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Buffering response body
+16:01:57.719 [chatper7] DEBUG httpclient.wire.content - << "<html>[\r][\n]"
+16:01:57.720 [chatper7] DEBUG httpclient.wire.content - << "<body>[\r][\n]"
+16:01:57.720 [chatper7] DEBUG httpclient.wire.content - << "<h2>Hello World!</h2>[\r][\n]"
+16:01:57.720 [chatper7] DEBUG httpclient.wire.content - << "</body>[\r][\n]"
+16:01:57.720 [chatper7] DEBUG httpclient.wire.content - << "</html>[\r][\n]"
+16:01:57.721 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Resorting to protocol version default close connection policy
+16:01:57.721 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Should NOT close connection, using HTTP/1.1
+16:01:57.721 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.isResponseAvailable()
+16:01:57.721 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
+16:01:57.721 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+16:08:33.423 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java version: 1.8.0_212-1-ojdkbuild
+16:08:33.429 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java vendor: Oracle Corporation
+16:08:33.429 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Java class path: D:\Dev\Eclipse\2019-03\workspace\study\target\classes;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-codec-1.3.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-httpclient-3.1.jar;D:\Dev\Eclipse\2019-03\workspace\study\libs\commons-logging.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-api\2.12.1\log4j-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-core\2.12.1\log4j-core-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-1.2-api\2.12.1\log4j-1.2-api-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.12.1\log4j-slf4j-impl-2.12.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1\geronimo-jms_1.1_spec-1.1.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\qpid-jms-client\0.40.0\qpid-jms-client-0.40.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\geronimo\specs\geronimo-jms_2.0_spec\1.0-alpha-2\geronimo-jms_2.0_spec-1.0-alpha-2.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\org\apache\qpid\proton-j\0.31.0\proton-j-0.31.0.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-buffer\4.1.32.Final\netty-buffer-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-common\4.1.32.Final\netty-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-handler\4.1.32.Final\netty-handler-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec\4.1.32.Final\netty-codec-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport\4.1.32.Final\netty-transport-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-resolver\4.1.32.Final\netty-resolver-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-epoll\4.1.32.Final\netty-transport-native-epoll-4.1.32.Final-linux-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-unix-common\4.1.32.Final\netty-transport-native-unix-common-4.1.32.Final.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-transport-native-kqueue\4.1.32.Final\netty-transport-native-kqueue-4.1.32.Final-osx-x86_64.jar;D:\Dev\Maven\apache-maven-3.6.2\repository\io\netty\netty-codec-http\4.1.32.Final\netty-codec-http-4.1.32.Final.jar
+16:08:33.430 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system name: Windows 10
+16:08:33.430 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system architecture: amd64
+16:08:33.430 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - Operating system version: 10.0
+16:08:33.459 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS & DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+16:08:33.459 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunRsaSign 1.8: Sun RSA signature provider
+16:08:33.459 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+16:08:33.460 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+16:08:33.460 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+16:08:33.460 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+16:08:33.460 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+16:08:33.460 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+16:08:33.460 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunPCSC 1.8: Sun PC/SC provider
+16:08:33.460 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+16:08:33.465 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+16:08:33.466 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.version = HTTP/1.1
+16:08:33.468 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+16:08:33.468 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.cookie-policy = default
+16:08:33.468 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.element-charset = US-ASCII
+16:08:33.468 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.protocol.content-charset = ISO-8859-1
+16:08:33.470 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@27ce24aa
+16:08:33.470 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+16:08:33.505 [chatper7] DEBUG org.apache.commons.httpclient.methods.GetMethod - enter GetMethod(String)
+16:08:33.506 [chatper7] DEBUG org.apache.commons.httpclient.params.DefaultHttpParams - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6aba2b86
+16:08:33.506 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HttpMethod)
+16:08:33.507 [chatper7] DEBUG org.apache.commons.httpclient.HttpClient - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+16:08:33.521 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Attempt number 1 to process request
+16:08:33.521 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.open()
+16:08:33.521 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Open connection to www.daum.net:443
+16:08:33.750 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.execute(HttpState, HttpConnection)
+16:08:33.751 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+16:08:33.751 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+16:08:33.751 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+16:08:33.753 [chatper7] DEBUG httpclient.wire.header - >> "GET / HTTP/1.1[\r][\n]"
+16:08:33.753 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+16:08:33.754 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+16:08:33.754 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+16:08:33.754 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+16:08:33.754 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+16:08:33.754 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+16:08:33.755 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+16:08:33.755 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - Adding Host request header
+16:08:33.755 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+16:08:33.767 [chatper7] DEBUG org.apache.commons.httpclient.HttpState - enter HttpState.getCookies()
+16:08:33.768 [chatper7] DEBUG org.apache.commons.httpclient.cookie.CookieSpec - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+16:08:33.768 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodBase - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+16:08:33.768 [chatper7] DEBUG httpclient.wire.header - >> "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+16:08:33.768 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+16:08:33.768 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+16:08:33.768 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+16:08:33.769 [chatper7] DEBUG httpclient.wire.header - >> "Host: www.daum.net[\r][\n]"
+16:08:33.769 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.print(String)
+16:08:33.769 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+16:08:33.769 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+16:08:33.769 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.writeLine()
+16:08:33.769 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[])
+16:08:33.769 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.write(byte[], int, int)
+16:08:33.769 [chatper7] DEBUG httpclient.wire.header - >> "[\r][\n]"
+16:08:33.769 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.flushRequestOutputStream()
+16:08:33.932 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Closing the connection.
+16:08:33.932 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.close()
+16:08:33.932 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.closeSockedAndStreams()
+16:08:33.932 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Exception caught when closing output
 javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 	at sun.security.ssl.SSLSocketImpl.checkEOF(SSLSocketImpl.java:1533) ~[?:1.8.0_212-1-ojdkbuild]
 	at sun.security.ssl.SSLSocketImpl.checkWrite(SSLSocketImpl.java:1545) ~[?:1.8.0_212-1-ojdkbuild]
@@ -459,7 +459,7 @@ javax.net.ssl.SSLException: Connection has been shutdown: javax.net.ssl.SSLHands
 	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171) [commons-httpclient-3.1.jar:?]
 	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397) [commons-httpclient-3.1.jar:?]
 	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323) [commons-httpclient-3.1.jar:?]
-	at net.jackbauer.httpclient.HttpClientSSL.main(HttpClientSSL.java:31) [classes/:?]
+	at net.jackbauer.httpclient.HttpClientSSL.chatper7(HttpClientSSL.java:31) [classes/:?]
 Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
 	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192) ~[?:1.8.0_212-1-ojdkbuild]
 	at sun.security.ssl.SSLSocketImpl.fatal(SSLSocketImpl.java:1946) ~[?:1.8.0_212-1-ojdkbuild]
@@ -527,8 +527,8 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1096) ~[commons-httpclient-3.1.jar:?]
 	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398) ~[commons-httpclient-3.1.jar:?]
 	... 4 more
-16:08:33.943 [main] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Method retry handler returned false. Automatic recovery will not be attempted
-16:08:33.943 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
-16:08:33.943 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
-16:08:33.947 [main] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
-16:08:33.947 [main] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+16:08:33.943 [chatper7] DEBUG org.apache.commons.httpclient.HttpMethodDirector - Method retry handler returned false. Automatic recovery will not be attempted
+16:08:33.943 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
+16:08:33.943 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.
+16:08:33.947 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - enter HttpConnection.releaseConnection()
+16:08:33.947 [chatper7] DEBUG org.apache.commons.httpclient.HttpConnection - Releasing connection back to connection manager.

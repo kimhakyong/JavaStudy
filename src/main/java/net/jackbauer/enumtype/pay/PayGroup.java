@@ -6,6 +6,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * https://woowabros.github.io/tools/2017/07/10/java-enum-uses.html
+ */
 @Getter
 public enum PayGroup {
     CASH("현금", Arrays.asList(PayType.ACCOUNT_TRANSFER,

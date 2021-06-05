@@ -2,6 +2,9 @@ package net.jackbauer.enumtype;
 
 import lombok.Getter;
 
+/**
+ * https://woowabros.github.io/tools/2017/07/10/java-enum-uses.html
+ */
 @Getter
 public enum TableStatus {
 	Y("1", true), 
