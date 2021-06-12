@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Don't forget to set system property -->
+<!-- -DLog4jContextSelector=org.apache.logging.log4j.core.async.AsyncLoggerContextSelector -->
+<!-- to make all loggers asynchronous. -->
+
+<Configuration>
+	<Properties>
+		<Property name="filename">logs/log4j2.log</Property>
+	</Properties>
+	<!-- ThresholdFilter level="trace" /-->
+
+	<Appenders>
+		<Console name="CONSOLE" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+
+		<RollingFile name="SyncFile" fileName="logs/log4j2_sync.log" filePattern="logs/log4j2_sync.%d{yyyyMMdd}.log" immediateFlush="false">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" />
+			</Policies>
+		</RollingFile>
+
+		<RollingFile name="AsyncFile" fileName="logs/log4j2_async.log" filePattern="logs/log4j2_async.%d{yyyyMMdd}.log" immediateFlush="false">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" />
+			</Policies>
+		</RollingFile>
+
+		<RollingFile name="ActiveMQFile" fileName="logs/activeMQ.log" filePattern="logs/activeMQ.%d{yyyyMMdd}.log" immediateFlush="false">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" />
+			</Policies>
+		</RollingFile>
+
+		<!-- Syslog name="syslog" host="localhost" port="514" protocol="UDP" charset="ISO-8859-1"> 
+			</Syslog -->
+
+		<!-- Syslog name="SYSLOG" host="172.16.201.193" facility="local5"> <PatternLayout 
+			pattern="%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n" /> </Syslog> <Async 
+			name="ASYNC_SYSLOG"> <AppenderRef ref="SYSLOG" /> </Async -->
+	</Appenders>
+
+	<Loggers>
+		<!-- 모든 로그는 dubug레벨 이상일때만 찍고 -->
+		<Root level="debug" additivity="false">
+			<AppenderRef ref="ActiveMQFile" />
+		</Root>
+
+		<Logger name="Sync" level="info" additivity="false">
+			<AppenderRef ref="SyncFile" />
+		</Logger>
+		<!-- Logger name="Async" level="info" additivity="false">
+			<AppenderRef ref="AsyncFile" />
+		</Logger -->
+		<AsyncLogger name="Async" level="info" additivity="false">
+			<AppenderRef ref="AsyncFile" />
+		</AsyncLogger>
+	</Loggers>
+</Configuration>
